@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Setup instructions for creating public GitHub repository
+# Run these commands after creating the repository on GitHub
+
+echo "=========================================="
+echo "GitHub Repository Setup Instructions"
+echo "=========================================="
+echo ""
+echo "1. Go to https://github.com/new"
+echo "2. Create a new repository with these settings:"
+echo "   - Repository name: alexthedar-site (or your preferred name)"
+echo "   - Description: Professional portfolio website for Alex Castaneda"
+echo "   - Set to PUBLIC (so client can fork it)"
+echo "   - DO NOT initialize with README, .gitignore, or license"
+echo ""
+echo "3. After creating, run these commands:"
+echo ""
+echo "# Add the remote repository (replace USERNAME with your GitHub username)"
+echo "git remote add origin https://github.com/USERNAME/alexthedar-site.git"
+echo ""
+echo "# Push the code to GitHub"
+echo "git branch -M main"
+echo "git push -u origin main"
+echo ""
+echo "4. Optional: Enable GitHub Pages for live hosting:"
+echo "   - Go to Settings > Pages"
+echo "   - Source: Deploy from a branch"
+echo "   - Branch: main"
+echo "   - Folder: / (root)"
+echo ""
+echo "The repository will then be public and ready for the client to fork!"

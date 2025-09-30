@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             transform: 'translate(-50%, -50%)',
           }}
         >
-          <source src="/hero-video-new.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}hero-video-new.mp4`} type="video/mp4" />
           {/* Fallback to tiled background if video doesn't load */}
         </video>
 
